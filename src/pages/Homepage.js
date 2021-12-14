@@ -3,6 +3,7 @@ import Carousel from '../components/Carousel'
 import Navbar from '../components/Navbar'
 import Card from '../components/Card'
 import Footer from '../components/Footer'
+import Trending from '../components/Trending'
 
 const Homepage = () => {
     return (
@@ -10,6 +11,7 @@ const Homepage = () => {
           <Navbar/>  
           <Carousel/>
           <Card/>
+          <Trending/>
           <Footer/>
         </>
     )

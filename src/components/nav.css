@@ -11,3 +11,24 @@ footer{
     background-color: #131921;
     color: #fff !important;
 }
+/* slider */
+.custom-slide{
+    height: 200px;
+}
+.slick-slide{
+    padding: 0 10px;
+}
+.slick-list{
+    margin: 0 2em;
+}
+.slick-prev{
+    left: 1% !important
+}
+.slick-next{
+    right: 2% !important
+}
+.slick-next:before,.slick-prev:before{
+    font-size: 35px;
+    line-height: 1;
+    color: orangered !important
+}
